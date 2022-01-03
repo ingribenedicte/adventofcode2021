@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path('heightmap.txt')
+path = Path('input\day9.txt')
 problem = Path.read_text(path)
 height = problem.strip().split('\n')
 
